@@ -1,0 +1,101 @@
+body{
+  background-color:hsl(30, 54%, 90%) ;
+  Font-size: 16px;
+}
+.container{
+  background-color:hsl(0, 0%, 100%) ;
+  max-width:600px;
+  margin:auto;
+  padding:2.5rem;
+  border-radius: .75rem;
+  box-shadow: 0px 6px 12px rgba(0,0,0,.1);
+  Font-size: 16px;
+
+}
+.imagen img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: .75rem;
+}
+
+.decription p{
+color: hsl(30, 10%, 34%);
+Font-size: 16px;
+
+}
+.Preparation{
+ background-color: hsl(330, 100%, 98%);
+ padding: 20px;
+ border-radius:.75rem;
+}
+
+.Preparation h2 {
+  color: hsl(14, 45%, 36%); /* Cambiar el color del texto resaltado */
+  
+}
+
+
+.Preparation ul li .resaltar{
+  font-weight: bold; /* Resaltar en negrita */
+  color: hsl(14, 45%, 36%);
+}
+
+.Preparation ul li {
+  font-weight: normal; /* Ajustar el peso de la fuente de los elementos de la lista */
+  color: hsl(30, 10%, 34%);/* Restablecer el color del texto normal */
+}
+
+.Preparation ul li.bold {
+  font-weight: bold; /* Resaltar en negrita */
+  color: red; /* Cambiar el color del texto resaltado */
+}
+
+
+
+.Ingredients h2{
+  color: hsl(14, 45%, 36%); /* Cambiar el color del texto resaltado */
+}
+
+.Ingredients li{
+color: hsl(30, 10%, 34%);
+}
+
+.Instructions h2{
+  color: hsl(14, 45%, 36%)
+}
+.Instructions .resaltar{
+  font-weight: bold; /* Resaltar en negrita */
+  color: hsl(30, 10%, 34%);
+}
+.Instructions li{
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 10px;
+}
+
+.Nutrition h2{
+  font-weight: bold; /* Resaltar en negrita */
+  color: hsl(30, 10%, 34%);
+
+}
+
+.Nutrition table {
+  width: 100%; /* Ajusta el ancho de la tabla al 100% del contenedor */
+  border-collapse: collapse; /* Fusiona los bordes de las celdas */
+}
+
+.Nutrition p{
+  color: hsl(30, 10%, 34%);
+}
+
+.Nutrition th, .Nutrition td {
+  padding: 10px; /* Añade un relleno a las celdas */
+  text-align: left; /* Alinea el texto a la izquierda */
+  border-bottom: 1px solid #ccc; /* Agrega una línea inferior a cada fila */
+}
+
+
+.Nutrition .resaltar{
+  font-weight: bold; /* Resaltar en negrita */
+  color: hsl(14, 45%, 36%)
+}
